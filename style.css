@@ -1,0 +1,12 @@
+/*reset de pagina*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    background-color:aquamarine; /*cor de fundo:verde limao da*/
+    
+
+}
