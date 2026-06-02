@@ -1,12 +1,79 @@
-/*reset de pagina*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/*reset de página*/
+*{
+    margin:0; /*zerando a margem geral*/
+}
+.cabecalho{
+    background-color: greenyellow; /*cor de fundo:verdelimao*/
+    display:flex; /*disposição dos elementos: flexivel*/
+    justify-content: space-between; /*espaço entre os elementos*/
+    align-items: center;
+}
+.cabecalho-titulo{
+    color:white;
+    padding:10px
+}
+span{
+    font-weight: bold;
+    color:red;
 }
 
-.cabecalho{
-    background-color:aquamarine; /*cor de fundo:verde limao da*/
-    
+.cabecalho-itens{
+    display:flex;
+}
+.cabecalho-itens-menu{
+    padding:20px;
+}
+.principal{
+    display: block;
+    unicode-bidi: isolate;
+}
 
+.secao-problema{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 5%;
+    min-height: 80vh;
+    gap: 30px;
+}
+.problema{
+        flex: 1;
+}
+
+.titulo-problema{
+    font-size: 3rem;
+    color: var(--dark-neutral);
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.paragrafo-problema{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #7f8c8d;
+}
+.botao-problema{
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 15px rgba(46, 204, 113, 0.4);
+    transition: all 0.3s;
+}
+
+.imagem-problema{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.img-problema{
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
